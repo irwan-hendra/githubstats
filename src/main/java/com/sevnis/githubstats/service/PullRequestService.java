@@ -12,7 +12,19 @@ public class PullRequestService {
 
   private final GithubRepository githubRepository;
 
-  public Integer getTotalNumberOfPullRequests() {
+  public Integer getPullRequests() {
+
+    List<PullRequest> pullRequests = githubRepository.getPullRequests().block();
+    return pullRequests.size();
+  }
+
+  public Integer getPullRequestReviews() {
+
+    List<PullRequest> pullRequests = githubRepository.getPullRequests().block();
+    return pullRequests.size();
+  }
+
+  public Integer getPullRequestReviewComments() {
 
     List<PullRequest> pullRequests = githubRepository.getPullRequests().block();
     return pullRequests.size();
