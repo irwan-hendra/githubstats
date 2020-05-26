@@ -14,13 +14,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(Include.NON_NULL)
-public class PullRequest {
+public class PullRequestComment {
 
   private Long id;
-  private String url;
-  private Long number;
-  private String state;
-  private String title;
   private GithubUser user;
-
 }

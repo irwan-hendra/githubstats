@@ -14,7 +14,7 @@ public class PullRequestServiceTest {
   @Test
   public void test() {
 
-    pullRequestService.getPullRequests();
+    pullRequestService.getPullRequestReviews("overtakerx");
 
   }
 }
