@@ -1,8 +1,8 @@
-package com.sevnis.githubstats.repository;
+package com.sevnis.githubstats.repository.github;
 
-import com.sevnis.githubstats.repository.api.PullRequest;
-import com.sevnis.githubstats.repository.api.PullRequestComment;
-import com.sevnis.githubstats.repository.api.Repo;
+import com.sevnis.githubstats.repository.github.api.PullRequest;
+import com.sevnis.githubstats.repository.github.api.PullRequestComment;
+import com.sevnis.githubstats.repository.github.api.Repo;
 import java.net.URI;
 import java.util.List;
 import org.springframework.core.ParameterizedTypeReference;

@@ -1,4 +1,4 @@
-package com.sevnis.githubstats.repository.api;
+package com.sevnis.githubstats.repository.github.api;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -14,9 +14,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(Include.NON_NULL)
-public class GithubUser {
+public class PullRequestComment {
 
-  private String login;
   private Long id;
-  private String type;
+  private GithubUser user;
 }

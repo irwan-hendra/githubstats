@@ -1,4 +1,4 @@
-package com.sevnis.githubstats.repository.api;
+package com.sevnis.githubstats.repository.github.api;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
